@@ -1,0 +1,45 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.main {
+    height: 100%;
+}
+
+.main__items {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__item {
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+}
+
+.first__box {
+    background-color: yellowgreen;
+}
+
+.second__box {
+    background-color: orange;
+}
+
+.main__box {
+    height: 50px;
+    border: 1px solid black;
+    background-color: chocolate;
+    display: block;
+    margin-bottom: 20px;
+}
